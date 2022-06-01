@@ -1,1 +1,4 @@
+io\ottomoto\webapp\actions\Action.class
 io\ottomoto\webapp\stepsdefinition\StepDefinitions.class
+io\ottomoto\webapp\utils\PropertiesFile.class
+io\ottomoto\webapp\utils\FileObject.class

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="RunCucumberTest" time="13.007" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="RunCucumberTest" time="10.702" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
     <property name="java.vm.version" value="25.211-b12"/>
-    <property name="browser" value="hola"/>
+    <property name="browser" value="https://www.google.com/"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="maven.multiModuleProjectDirectory" value="C:\Users\NEYFFER PALACIOS\Documents\Projects\Automation\Tutotrial Cucumber\Automation_Test_Ottomoto"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
@@ -47,7 +47,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_211\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dbrowser=hola test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dbrowser=https://www.google.com/ test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -66,5 +66,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Login" name="Sunday isn&apos;t Friday" time="13.007"/>
+  <testcase classname="Login" name="Sunday isn&apos;t Friday" time="10.702"/>
 </testsuite>
