@@ -30,10 +30,10 @@ public class StepDefinitions {
         DesiredCapabilities c = DesiredCapabilities.chrome();
         c.setCapability(ChromeOptions.CAPABILITY, o);
         driver = new ChromeDriver(o);
-        driver.get("https://testautomationu.applitools.com");
+        driver.get(globalProps.getFieldValue("app_url"));
         //driver.get(globalProps.getFieldValue("url.google"));
         //driver.get(browser);
-        driver.manage().window().maximize();
+        //driver.manage().window().maximize();
         //Provide a handler to the home page, from the framework level -->
         System.out.println(driver.getTitle());
         System.out.println("browser = " + browser);

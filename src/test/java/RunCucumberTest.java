@@ -6,8 +6,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/main/resources/features",
         glue = {""},
-        plugin = {"pretty"},
-        tags = "@LoginWrongCredentials or @testFeature"
+        plugin = {"pretty"}
 )
 public class RunCucumberTest {
 
